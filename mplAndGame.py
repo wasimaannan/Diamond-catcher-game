@@ -178,7 +178,6 @@ def animate(value):
         catcher_min_y = 30
         catcher_max_y = 70
 
-        # collision detection
         if (diamond_max_x >= catcher_min_x and diamond_min_x <= catcher_max_x and
                 diamond_max_y >= catcher_min_y and diamond_min_y <= catcher_max_y):
             score += 1
