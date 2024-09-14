@@ -106,7 +106,7 @@ def draw_left_arrow():
 
 
 def draw_pause():
-    glColor3f(1.0, 1.0, 0.0)  # Yellow
+    glColor3f(1.0, 1.0, 0.0)  
 
     if pause:
         # play
